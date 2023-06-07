@@ -20,6 +20,7 @@ html, body {
     margin: auto;
     align-items: center;
     height: 60px;
+    z-index: 1;
 }
 
 
@@ -35,13 +36,11 @@ html, body {
 }  
 
 .logo {
-    background-image: url(IMG/logo.png);
-    width: 100;
-    height: 84;
-    margin-left: 21px;
+    width: 80px;
+    margin-left: 20px;
+    top:-10px;
     position: absolute;
-    margin-top: -15px; 
-  }
+}
 
 ul li{
     display: inline-flex;
@@ -239,6 +238,17 @@ a:link, a:visited, a:active {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    position: relative;
+}
+
+.banner2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffa8454d /* Cor de fundo com opacidade */
 }
 
 .frase2{
@@ -389,6 +399,9 @@ a:link, a:visited, a:active {
 .containertitulo{
     display: flex;
     justify-content: center;
+    position: absolute;
+    top: 40%;
+    left: 28%;
 }
 
 .titulo3{
@@ -399,10 +412,8 @@ a:link, a:visited, a:active {
     padding: 10px 20px;
     font-size: 25px;
     width: 100%;   
-    background-color: #ffa845;
-    opacity: 80%;
+    background-color: #ffa845f1;
     position: relative;
-    margin-top: -200px;
     align-items: center;
 }
 
@@ -433,6 +444,17 @@ a:link, a:visited, a:active {
     width: 100%;
     align-items: center;
     flex-direction: column; 
+    position: relative;
+}
+
+.banner3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffa8454d /* Cor de fundo com opacidade */
 }
 
 .foto{
