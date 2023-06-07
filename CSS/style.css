@@ -595,7 +595,7 @@ summary::-webkit-details-marker {
 }
 
 .titulos{
-    width: 980px;
+    width: 100%;
     background-color:#e06900;
 }
 
@@ -862,4 +862,14 @@ p.chamada{
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+.maptitulo{
+    background-color: darkblue;
+    color: white;
+    font-family: 'Source Sans 3';
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
