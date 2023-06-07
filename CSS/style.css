@@ -20,7 +20,7 @@
 
 
 .lista1{
-    background-color:#fa5f22;
+    background-color:#ff7700;
     text-align: end;
     display: flex;
     align-items: center;
@@ -237,7 +237,7 @@ a:link, a:visited, a:active {
 
 
 .frase2{
-    background-color: #cc5e00;
+    background-color: #ff7700;
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
@@ -380,3 +380,86 @@ a:link, a:visited, a:active {
     text-align: center;
     padding: 15px;
 }
+
+.containertitulo{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo3{
+    font-family: 'Merriweather';
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 25px;
+    width: 980px;   
+    background-color: #ffa845;
+    opacity: 80%;
+    position: relative;
+    margin-top: -111px;
+    align-items: center;
+}
+
+.graficoONU{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.onu{
+    background-image: url(../CSS/IMG/onu.png);
+    width: 908px;
+    height: 536px;
+}
+
+.onutexto{
+    font-family: 'Source Sans 3';
+    width: 908px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    line-height: 34px;
+}
+
+.banner3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.foto{
+    background-image: url(../CSS/IMG/prato.png);
+    width: 980px;
+    height: 654px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: -20px;
+}
+
+.boxperguntas{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: 'Source Sans 3';
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.perguntas{
+    display: flex;
+    font-size: 16px;
+    width: 980px;
+    flex-direction: column; 
+}
+
+h3{
+    background-color: #ffa845;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    color: black;
+}
+
