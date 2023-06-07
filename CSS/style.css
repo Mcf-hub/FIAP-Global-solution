@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Quicksand:wght@500&family=Source+Sans+3:ital,wght@0,400;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Quicksand:wght@500;700&family=Source+Sans+3:ital,wght@0,400;0,700;1,500&display=swap');
 
 
 
@@ -526,7 +526,8 @@ summary{
     font-family: 'Quicksand';
     font-size: 24px;
     background-color: #ffa845;
-    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px 0px 10px;
 }
 
 summary::-webkit-details-marker {
@@ -546,3 +547,227 @@ summary::-webkit-details-marker {
   details[open] summary:after {
     content: "-";
   }
+
+.boxtitulo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulos{
+    width: 980px;
+    background-color:#e06900;
+}
+
+p.titulo4{
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 25px;
+    color:white;
+    margin-left: 70px;
+}
+
+p.subtitulo4{
+    font-family: Quicksand;
+    font-size: 22px;
+    color: white;
+    margin-left: 70px;
+}
+
+p.subtitulo5{
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+.item1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imgtexto1{
+    background-image: url(../CSS/IMG/alimentacao.png);
+    width: 325px;
+    height: 250px;
+    margin-right: 55px;
+}
+
+.textoitem{
+    font-family: 'Source Sans 3';
+    font-size: 16px;
+    width: 600px;
+    line-height: 36px;
+    text-align: justify;
+}
+
+.textosODS{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.tituloitem{
+    font-family: 'Source Sans 3';
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.imgtexto2{
+    background-image: url(../CSS/IMG/alimentacao2.png);
+    width: 325px;
+    height: 250px;
+    margin-left: 55px;
+}
+
+.item2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imgtexto3{
+    background-image: url(../CSS/IMG/produtor.png);
+    width: 325px;
+    height: 250px;
+    margin-right: 55px;
+}
+
+.item3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imgtexto4{
+    background-image: url(../CSS/IMG/produtor2.png);
+    width: 325px;
+    height: 250px;
+    margin-left: 55px;
+}
+
+.item4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imgtexto5{
+    background-image: url(../CSS/IMG/genetica.png);
+    width: 325px;
+    height: 250px;
+    margin-right: 55px;
+}
+
+.item5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.boxfrase5{
+    background-color:#e06900;
+    height: 135px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+p.frase5{
+    color: white;
+    font-family: 'Source Sans 3';
+    font-style: bold;
+    font-size: 18px;
+    display: flex;
+    width: 1050px;
+    text-align: center;
+}
+
+.boxchamada{
+    background-color: #e7e7e7;
+    height: 135px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+p.chamada{
+    color: black;
+    font-family: 'Source Sans 3';
+    font-size: 18px;
+    display: flex;
+    width: 1050px;
+}
+
+
+.boxlistarecolher{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.listarecolher{
+    font-family: 'Source Sans 3';
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.itenslista{
+    display: flex;
+    width: 980px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+}
+.parabens{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#parabenstitulo{
+    font-family: 'Quicksand';
+    font-size: 30px;
+    color: #d7a73b;
+}
+
+.mensagem{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Quicksand';
+    width: 500px;
+    text-align: justify;
+    margin-left: 20px;
+    justify-content: start;
+    line-height: 32px;
+    font-weight: bold;
+}
+
