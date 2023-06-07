@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Quicksand:wght@500&family=Source+Sans+3:ital,wght@0,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Quicksand:wght@500&family=Source+Sans+3:ital,wght@0,400;0,700;1,500&display=swap');
 
 
 
@@ -197,3 +197,120 @@ a:link, a:visited, a:active {
     margin-top: 50px;
     text-align: center;
 }
+
+.banner2{
+    background-image: url(../CSS/IMG/fome.png);
+    width: 980px;
+    height: 497px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.frase2{
+    background-color: #cc5e00;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Source Sans 3';
+    margin-top: 20px;
+    height: 100px;
+    align-items: center;
+    font-size: 30px;
+}
+
+#numero{
+    font-family: 'Source Sans 3';
+    font-weight: bold;
+}
+
+.contenttexto{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: lightgray;
+}
+
+.texto2{
+    width: 980px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans 3';
+    text-align: center;
+    word-spacing: 2px;
+    font-size: 18px;
+}
+
+.dados{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.grafico1{
+    background-image: url(../CSS/IMG/grafico1.png);
+    width: 400px;
+    height: 303px;
+}
+
+.graftext{
+    width: 600px;
+    font-family: 'Source Sans 3';
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 50px;
+}
+
+
+.dados2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.grafico2{
+    background-image: url(../CSS/IMG/grafico2.png);
+    width: 596px;
+    height: 366px;
+}
+
+.graftext2{
+    font-family: 'Source Sans 3';
+    font-size: 16px;
+    line-height: 30px;
+    width: 400px;
+    margin-right: 50px;
+}
+
+
+.dados3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.imgfome{
+    background-image: url(../CSS/IMG/imgfome.png);
+    width: 400px;
+    height: 330px;
+}
+
+.imgtext{
+    font-family: 'Source Sans 3';
+    font-size: 16px;
+    line-height: 30px;
+    width: 600px;
+    margin-left: 50px;
+}
+
