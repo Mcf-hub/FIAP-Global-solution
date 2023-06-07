@@ -463,3 +463,86 @@ h3{
     color: black;
 }
 
+.caetano{
+    background-image: url(../CSS/IMG/caetano.png);
+    width: 600px;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.frasecaetano{
+    font-family: 'Source Sans 3';
+    font-style: italic;
+    color: grey;
+    font-size: 14px;
+}
+
+.dadosonu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    font-family: 'Source Sans 3';
+    flex-direction: column;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.acesse{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.relatorio{
+    width: 700px;
+    word-spacing: 2px;
+    vertical-align: baseline;
+    line-height: 26px;
+}
+
+button{
+    background-color: #e06900;
+    font-family: 'Source Sans 3';
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 700px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.listainsegalimentar{
+    font-family: 'Source Sans 3';
+    font-size: 16px;
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 1150px;
+}
+
+
+summary{
+    font-family: 'Quicksand';
+    font-size: 24px;
+    background-color: #ffa845;
+    margin: auto;
+}
+
+summary::-webkit-details-marker {
+    display: none
+  }
+  summary:after {
+    content: "+"; 
+    color: #e06900; 
+    float: left;  
+    font-weight: bold; 
+    padding: 0; 
+    text-align: center; 
+    width: 20px;
+    left: 20px;
+    margin-right: 10px;
+  }
+  details[open] summary:after {
+    content: "-";
+  }
