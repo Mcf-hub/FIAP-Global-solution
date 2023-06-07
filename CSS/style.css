@@ -74,21 +74,22 @@ ul li{
 
   
 
- 
   
   .titulobanner, .subtitulobanner {
     position: absolute;
-    top: 68%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
     font-size: 24px;
+    font-family: Merriweather;
   }
   
   .titulobanner {
     font-weight: bold;
     font-size: 30px;
+    font-family: Merriweather;
   }
   
   .subtitulobanner {
@@ -339,3 +340,43 @@ a:link, a:visited, a:active {
     margin-left: 50px;
 }
 
+.graficos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.grafico3{
+    background-image: url(../CSS/IMG/grafico3.png);
+    width: 393px;
+    height: 350px;
+}
+.grafico4{
+    background-image: url(../CSS/IMG/grafico4.png);
+    width: 395px;
+    height: 350px;
+    margin-left: -34px;
+}
+
+.grafico5{
+    background-image: url(../CSS/IMG/grafico5.png);
+    width: 370px;
+    height: 350px;
+}
+
+.graficostext{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.graftext1{
+    width: 350px;
+    font-family: 'Source Sans 3';
+    font-size: 16px;
+    text-align: center;
+    padding: 15px;
+}
