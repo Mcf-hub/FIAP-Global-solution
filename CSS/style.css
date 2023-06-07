@@ -833,3 +833,33 @@ p.chamada{
     height: 395px;
 }
 
+.banner4{
+    background-image: url(../CSS/IMG/banner4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bannercontent{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Sans 3';
+}
+
+.quais{
+    background-color: lightgray;
+    font-size: 23px;
+    margin-top: -5px;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
