@@ -1,9 +1,11 @@
 // Definindo o valor máximo do contador
 var maxCount = 828000000;
 
+// Definindo o número de pulos a cada atualização
+var pulo = 9934;
+
 // Função para iniciar o contador
 function iniciarContador() {
-
   // Definindo o valor inicial do contador
   var contador = 0;
 
@@ -11,24 +13,24 @@ function iniciarContador() {
   var contadorElemento = document.getElementById("contador");
 
   if (contadorElemento) {
-
-    // Definindo o intervalo de atualização do contador (a cada 1 milissegundo)
+    // Definindo o intervalo de atualização do contador
     var intervalo = setInterval(function () {
       // Atualizando o valor do contador
-      contador++;
-  
-      // Exibindo o valor atualizado no elemento HTML
-      contadorElemento.textContent = contador;
-  
-      // Verificando se o contador atingiu o valor máximo
-      if (contador === maxCount) {
+      contador += pulo;
+
+      // Verificando se o contador ultrapassou o valor máximo
+      if (contador >= maxCount) {
+        // Ajustando o contador para o valor máximo
+        contador = maxCount;
+
         // Parando o intervalo de atualização
         clearInterval(intervalo);
       }
-    }, 1);
-    
-  }
 
+      // Exibindo o valor atualizado no elemento HTML
+      contadorElemento.textContent = contador;
+    }, 1);
+  }
 }
 
 // Chamando a função para iniciar o contador quando a página terminar de carregar
