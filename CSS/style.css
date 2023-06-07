@@ -557,7 +557,7 @@ button{
     justify-content: start;
     margin-left: 50px;
     margin-top: 20px;
-    width: 1150px;
+    width: 900;
 }
 
 
@@ -567,6 +567,7 @@ summary{
     background-color: #ffa845;
     margin-bottom: 10px;
     padding: 10px 0px 10px;
+    width: 100%;
 }
 
 summary::-webkit-details-marker {
@@ -761,10 +762,14 @@ p.chamada{
 
 
 .boxlistarecolher{
+    font-family: 'Source Sans 3';
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
+    width: 980px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 170px;
+    
 }
 
 .listarecolher{
@@ -772,7 +777,6 @@ p.chamada{
     display: flex;
     flex-direction: column;
     width: 100%;
-    align-items: center;
     margin-top: 20px;
     margin-bottom: 50px;
 }
@@ -873,3 +877,4 @@ p.chamada{
     justify-content: center;
     align-items: center;
 }
+
