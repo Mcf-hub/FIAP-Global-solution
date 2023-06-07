@@ -222,7 +222,7 @@ a:link, a:visited, a:active {
     font-family: 'Source Sans 3';
     font-size: 13px;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     margin-top: 50px;
     text-align: center;
 }
@@ -808,5 +808,28 @@ p.chamada{
     justify-content: start;
     line-height: 32px;
     font-weight: bold;
+}
+
+.divisor {
+    width: 100%;
+    background-color: #d7a73b;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    color: #fff;
+    font-family: Merriweather;
+    text-align: center;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video iframe {
+    width: 700px;
+    height: 395px;
 }
 
