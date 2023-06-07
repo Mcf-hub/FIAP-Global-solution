@@ -1,4 +1,199 @@
-iframe{
-    width: 100%;
-    height: 925px;
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Quicksand:wght@500&family=Source+Sans+3:ital,wght@0,400;1,500&display=swap');
+
+
+
+
+#container{
+    width: 980px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    width: 980px;
+    margin: auto;
+    align-items: center;
+}
+
+
+.lista1{
+    background-color:#fa5f22;
+    text-align: end;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: auto;
+    height: 45px;
+    padding-inline-end: 5px;
+}  
+
+.logo {
+    background-image: url(IMG/logo.png);
+    width: 100;
+    height: 84;
+    margin-left: 21px;
+    position: absolute;
+    margin-top: -15px; 
+  }
+
+ul li{
+    display: inline-flex;
+    padding: 0 10px 0 10px;
+    
+}
+
+.item-lista1{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-inline: 5px;
+    font-family: 'Source Sans 3';
+    
+}
+
+.item-lista1:hover{
+    background-color: #ffa845;
+    color: white;
+    padding-inline: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.banner {
+    background-image: url(IMG/titulo.png);
+    width: 980px;
+    height: 497px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+.titulo{
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    color: #ff9900;
+    font-family: Merriweather;
+}
+
+.subtitulo{
+    display: flex;
+    font-family: 'Source Sans 3';
+    text-align: center;
+    justify-content: center;
+}
+
+hr{
+    width: 980px;
+    border: 1px solid lightgrey;
+    margin-bottom: 30px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+}
+
+.Bloco1{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-right: 50px;
+}
+
+.link{
+    font-family: Quicksand;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+    color: rgb(0, 0, 0);
+	}
+
+
+.imgDadosDaFome{
+    background-image:url(IMG/img1.png);
+    width: 400px;
+    height: 250px;
+}
+
+.texto{
+    font-family: 'Source Sans 3';
+    font-size: 14px;
+}
+
+.Bloco2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    margin-left: 50px;
+}
+
+.imgInsegurancaAlimentar{
+    background-image: url(IMG/img2.png);
+    width: 400px;
+    height: 250px;
+}
+
+.frase{
+    font-family: 'Source Sans 3';
+    font-style: italic;
+    font-weight: 500;
+    background-color: lightgrey;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.conteudo2{
+    display: flex;
+    justify-content: center;
+}
+
+.Bloco3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    margin-right: 50px;
+}
+
+
+.imgODS2{
+    background-image: url(IMG/img3.png);
+    width: 400px;
+    height: 250px;
+}
+
+.Bloco4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    margin-left: 50px;
+}
+
+.imgTecnologia{
+    background-image: url(IMG/img4.png);
+    width: 400px;
+    height: 250px;
+}
+
+.rodape{
+    font-family: 'Source Sans 3';
+    font-size: 13px;
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+    text-align: center;
 }
