@@ -63,14 +63,39 @@ ul li{
 }
 
 .banner {
-    background-image: url(IMG/titulo.png);
+    background-image: url(IMG/banner.png);
     width: 980px;
-    height: 497px;
+    height: 489px;
     margin: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
+
+  
+
+ 
+  
+  .titulobanner, .subtitulobanner {
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 24px;
+  }
+  
+  .titulobanner {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .subtitulobanner {
+    font-size: 20px;
+    margin-top: 70px;
+  }
+  
 
 .titulo{
     font-size: 26px;
@@ -144,7 +169,7 @@ a:link, a:visited, a:active {
     height: 250px;
 }
 
-.frase{
+.fraseindex{
     font-family: 'Source Sans 3';
     font-style: italic;
     font-weight: 500;
