@@ -878,3 +878,13 @@ p.chamada{
     align-items: center;
 }
 
+.agricultura{
+    background-image: url(../CSS/IMG/agricultura.png);
+    width: 100%;
+    height: 675px;
+    margin-top: -20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
