@@ -897,3 +897,52 @@ p.chamada{
     background-attachment: fixed;
 }
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .frasesfilme p, .recomendacao p{
+    text-align: center;
+    font-family: 'Source Sans 3';
+    font-size: 20px;
+  }
+
+  .recomendacao p b{
+    font-size: 25px;
+  }
+  .row {
+    width: 100%;
+    max-width: 980px; 
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image {
+    flex-basis: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  
+  .image img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .ultimafrase{
+    background-color: #ffa845;
+    padding: 20px;
+    display: block;
+    padding-left: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Source Sans 3';
+    font-size: 20px;
+  }
+  
+  
+  
