@@ -251,7 +251,7 @@ a:link, a:visited, a:active {
     background-color: #ffa8454d /* Cor de fundo com opacidade */
 }
 
-.frase2{
+.frase2, .dadoscontador{
     background-color: #ff7700;
     color: #fff;
     display: inline-flex;
@@ -262,6 +262,15 @@ a:link, a:visited, a:active {
     height: 100px;
     align-items: center;
     font-size: 30px;
+}
+
+.dadoscontador{
+    height: fit-content;
+    font-size: 12px;
+}
+
+.dadoscontador p{
+    margin: 2px 0px 10px 0px;
 }
 
 #numero{
